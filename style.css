@@ -1,0 +1,40 @@
+#container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+#input {
+    min-width: 35vw;
+    font-size: 100%;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#birthday {
+    display: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+
+}
+
+#buttons {
+    text-align: center;margin: 10px;
+}
+
+#btn-one, #btn-two {
+    
+    min-width: 18vw;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#input-area{
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Days Until Your Birthday</title>
+</head>
+<body>
+    <div id="container">
+
+    <p class="title">Input your date of birth in the International standart <br>
+         "YYYY-MM-DD"<br>
+    For example: 2025-09-21</p>
+    <div id="input-area">
+        <input type="text" placeholder="YYYY-MM-DD" id="input"  value=''>
+    </div>
+    
+
+    <div id="buttons">
+        <button id="btn-one" type="button" onclick="calcTime()">Calculate time</button>
+        <button id="btn-two" type="button" onclick="cleanInput()">Clean field</button>
+    </div>
+    
+
+    <div id="birthday">
+        <p>Your birthday will come in</p>
+        <p id="days"></p>
+        <p id="hours"></p>
+        <p id="minutes"></p>
+        <p id="seconds"></p>
+    </div>  
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
